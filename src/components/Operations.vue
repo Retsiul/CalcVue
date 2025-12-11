@@ -5,8 +5,6 @@ const props=defineProps(['value'])
 
 <template>
     <select @change="props.value">
-    <!-- <select @change="event => estate.operators = event.target.value"> -->
-
         <option value="">Selecione o operador</option>
         <option value="somar">+</option>
         <option value="subtrair">-</option>
